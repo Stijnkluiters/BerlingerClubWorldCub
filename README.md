@@ -5,10 +5,11 @@ This project has been created by Stijn Kluiters as requested by Berlinger as an 
 
 # Setup and installation
 
-I've used Windows to create this project. Use this link to install the same way as i did: https://codewithbish.com/how-to-run-laravel-8-using-docker-in-windows-for-beginners/
+I've used Windows 10 to create this project. Use this link to install the same way as i did: https://codewithbish.com/how-to-run-laravel-8-using-docker-in-windows-for-beginners/
 But skip step 2;
 
 After the installation you should see that the .env has been created for you. If not, then follow the default laravel installation guide.
+https://laravel.com/docs/9.x/installation
 
 1. Run `php artisan migrate` in the docker environment to setup the database tables.
 2. Run `php artisan db:seed` to enter the berlinger teams.
